@@ -1,5 +1,5 @@
 -- This analysis uses a simple dataset from Kaggle: https://www.kaggle.com/datasets/sergylog/ab-test-data (CSV file is linked in the repository)
--- Kasggle Credit: https://www.kaggle.com/datasets/sergylog/ab-test-data
+-- Kaggle Credit: https://www.kaggle.com/datasets/sergylog/ab-test-data
 -- Objective: Company X has set up an A/B test with control and test groups. Evaluate whether the test experience drives more/less revenue, and therefore should/should not be implemented in full by the company.
 
 -- Created a table in my local MySQL database:
@@ -43,7 +43,7 @@ select
 user_id,
 test_variant,
 case 
-	when sum(revenue) BETWEEN 0 and 1 then '0-1'
+    when sum(revenue) BETWEEN 0 and 1 then '0-1'
     when sum(revenue) BETWEEN 1 and 5 then '1-5'
     when sum(revenue) BETWEEN 5 and 10 then '5-10'
     when sum(revenue) BETWEEN 10 and 20 then '10-20'
