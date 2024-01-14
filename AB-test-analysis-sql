@@ -1,6 +1,5 @@
--- This analysis uses a simple dataset from Kaggle: https://www.kaggle.com/datasets/sergylog/ab-test-data (user_id, test_variant, user_revenue)
--- CSV file is linked to this project's repository
-
+-- This analysis uses a simple dataset from Kaggle: https://www.kaggle.com/datasets/sergylog/ab-test-data (CSV file is linked in the repository)
+-- Kasggle Credit: https://www.kaggle.com/datasets/sergylog/ab-test-data
 -- Objective: Company X has set up an A/B test with control and test groups. Evaluate whether the test experience drives more/less revenue, and therefore should/should not be implemented in full by the company.
 
 -- Created a table in my local MySQL database:
@@ -9,7 +8,7 @@ CREATE TABLE `analyst_data`.`simple_ab_test_data`(
   `test_variant` VARCHAR(45) NULL,
   `revenue` DECIMAL(4,2) NULL);
 
--- Check the number of records: 9,999
+-- Check the number of records
 select count(*) from analyst_data.simple_ab_test_data;
 
 -- Let's start by aggregating!
@@ -23,7 +22,7 @@ from simple_ab_test_data;
 -- Let's split both of these metrics by test variant + see which variant holds the greater percentage of total revenue from the test period.
 WITH revenue AS(
 select
-sum(revenue) As total_revenue
+sum(revenue) AA total_revenue
 from analyst_data.simple_ab_test_data)
 select 
 test_variant,
