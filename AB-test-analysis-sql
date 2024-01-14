@@ -35,7 +35,23 @@ group by 1;
 -- Alright, now we're getting somewhere! It looks like the control group produced 56% of revenue ($446.99), while the test group accounted for 44% ($351.47). 
 -- But, what if the control group simply had more users? Nope, they're pretty even (3930 vs 3934, a total of 7,864 users participated in the test).
 
--- Let's look at some things that give us more insight into how the users in each group are behaving.
--- How many "high performers" were in each group? Are relatively few users generating the majority of revenue, or are lots of users making small purchases?
--- How many distinct users purchased in each group? How many were repeat purchases?
+-- Let's look at some things that give us more insight into *how* the users in each group are behaving.
+-- How many "power purchasers" are in each group? Are relatively few users generating the majority of revenue, or are lots of users making small purchases?
+-- How many distinct users purchased in each group? How many were repeat purchasers?
+-- An important note here: Users are recorded in this dataset as making a purchase even if the purchased product is FREE (revenue = 0). So I will be dividing purchases into Free and Paid. 
+select 
+user_id,
+test_variant,
+case 
+	when sum(revenue) BETWEEN 0 and 1 then '0-1'
+    when sum(revenue) BETWEEN 1 and 5 then '1-5'
+    when sum(revenue) BETWEEN 5 and 10 then '5-10'
+    when sum(revenue) BETWEEN 10 and 20 then '10-20'
+    when sum(revenue) BETWEEN 20 and 40 then '20-40'
+    when sum(revenue) > 40 then '40+'
+    else 'no data' end as spend_bucket,
+sum(revenue)
+from analyst_data.simple_ab_test_data
+group by 1,2
+order by 4 desc
  
