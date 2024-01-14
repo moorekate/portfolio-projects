@@ -2,6 +2,7 @@
 > Boston, MA
 
 ### Projects
+1. Simple A/B Test Evaluation
 
 
 
