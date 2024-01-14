@@ -1,4 +1,4 @@
-### Kate Alice Moore's Portoflio
+### Kate Alice Moore's Portfolio
 > Boston, MA
 
 ### Projects
