@@ -2,7 +2,7 @@
 > Boston, MA
 
 #### Skilled in: 
-R/RStudio (tidyr, dplyr, ggplot2), Python (pandas, numPy, matplotlib), SQL (MySQL, PostgreSQL, etc.)
+R/RStudio (the tidyverse), Python (pandas, numPy, matplotlib), SQL (MySQL, PostgreSQL, etc.)
 
 ### Projects
 + Simple A/B Test Evaluation
