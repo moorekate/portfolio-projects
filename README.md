@@ -8,7 +8,7 @@
 > + dbt
 
 <br> Much of my work is proprietary, so I am putting together a composition of smaller, self-driven analyses and volunteer work. Finding appropriate open-source datasets is difficult, so I'll be pushing updates as I find new datasets to showcase certain skills. 
-I am open to discussing my complex industry work (the pieces I am allowed to share) in the interview process.
+I am open to discussing my industry work (pieces of which I have gotten pre-approval to share for the purpose of interviews).
 
 ### Projects
 + Simple A/B Test Evaluation
