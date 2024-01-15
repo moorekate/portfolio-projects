@@ -15,5 +15,6 @@
   - [CSV data](simple_ab_test_data.csv)
 + Internet Usage Analysis
   - [SQL file](internet_usage_analysis.sql)
+  - [CSV data](internet_usage_data.csv)
 
 
