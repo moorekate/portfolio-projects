@@ -1,13 +1,2 @@
--- To do this, I first randomly generated data for some sample schema tables.
--- Schema 1: analyst_data.users
-  -- user_id - a UNIQUE 6-digit number
-  -- first_name - (5-7 characters, must be a legitimate name)
-  -- last_name - (5-7 characters, must be a legitimate name)
--- has_family_plan - true or false. If true then family ID is not null. NULL if false. 
--- family_id - if a user belongs to a family phone plan, this is the id of the plan - may be repeated to link customers together, max of 5 rows using the same id. four digit number. for users that are on their own plan
--- user_age - any whole number in the range 18 - 100 (users must be at least 18 to use the service)
--- created_date - the date and time the customer/user was created, i.e. their first day on the service. Members with same FamilyID do not have to have the same user created date (for exampl,e parents could add their children after they've joined).
--- account_manager -  true or false (for each group of users with the same familyID, only one user in the group may be the account manager, if there's only one user with no familyID then they are the account manager by default)
--- plan_id - id of each person's service plan, those with the same familyID will also have the same PlanID (because every member of the family is on the same plan) - 3 letters and two numbers in any order
--- billing_id - id used to link each billing statement to the account manager (billingid should only be not null for account manager customers) - first two letters of user's last name + 3 numbers, in that order
+-- Kaggle dataset: https://www.kaggle.com/datasets/divyanshukunwar/internet-usage-analysis
 
