@@ -1,10 +1,11 @@
 ### Kate Alice Moore's Portfolio
 > Boston, MA
-&nbsp
-> Skilled in: R/RStudio (tidyr, dplyr, ggplot2), Python (pandas, numPy, matplotlib), SQL (MySQL, PostgreSQL, etc.)
+
+#### Skilled in: 
+R/RStudio (tidyr, dplyr, ggplot2), Python (pandas, numPy, matplotlib), SQL (MySQL, PostgreSQL, etc.)
 
 ### Projects
-1. Simple A/B Test Evaluation
++ Simple A/B Test Evaluation
 
 
 
