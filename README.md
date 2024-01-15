@@ -11,8 +11,6 @@
 
 ### Projects
 + Simple A/B Test Evaluation
-  - [SQL file](url)
-  - Data CSV
 + Internet Usage Analysis
 
 
