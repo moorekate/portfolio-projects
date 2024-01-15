@@ -11,7 +11,9 @@
 
 ### Projects
 + Simple A/B Test Evaluation
+  - [SQL file](ab-test-analysis.sql)
+  - [CSV data](simple_ab_test_data.csv)
 + Internet Usage Analysis
-
+[SQL file](ab-test-analysis.sql)
 
 
