@@ -7,7 +7,8 @@
 > + SQL (MySQL, PostgreSQL, etc.)
 > + dbt
 
-<br> Much of my work is proprietary, and finding open-source datasets is difficult! As such, this portfolio is composed of smaller, self-driven analyses and volunteer work. I'll push updates as I find new datasets to showcase certain skills. 
+<br> Much of my work is proprietary, so I am putting together a composition of smaller, self-driven analyses and volunteer work. Finding appropriate open-source datasets is difficult, so I'll be pushing updates as I find new datasets to showcase certain skills. 
+I am open to discussing my complex industry work (the pieces I am allowed to share) in the interview process.
 
 ### Projects
 + Simple A/B Test Evaluation
