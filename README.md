@@ -9,6 +9,7 @@ Much of my work is proprietary, and finding open-source datasets with enough com
 
 ### Projects
 + Simple A/B Test Evaluation
++ Local Internet Usage Analysis
 
 
 
