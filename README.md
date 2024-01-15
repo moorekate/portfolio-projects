@@ -1,6 +1,6 @@
 ### Kate Alice Moore's Portfolio
 > Boston, MA
-> ;NBSP
+;NBSP
 > Skilled in: R/RStudio (tidyr, dplyr, ggplot2), Python (pandas, numPy, matplotlib), SQL (MySQL, PostgreSQL, etc.)
 
 ### Projects
