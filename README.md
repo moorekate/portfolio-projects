@@ -8,8 +8,6 @@
 > + dbt
 
 <br> Much of my work is proprietary, so what you will find here is a composition of smaller, self-driven analyses and volunteer work. I'll be pushing updates as I find open-source datasets that are appropriate for showcasing certain skills. 
-<br>
-<br>I am open to discussing my industry work (pieces of which I have gotten pre-approval to share for the purpose of interviews).
 
 ### Projects
 + Simple A/B Test Evaluation
