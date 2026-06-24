@@ -3,11 +3,11 @@
 
 > Skilled in:
 > + R/RStudio (the tidyverse)
-> + Python (pandas, numPy, matplotlib)
-> + SQL (MySQL, PostgreSQL, etc.)
+> + Python (pandas, numPy, matplotlib,etc.)
+> + SQL (MySQL, PostgreSQL, SnoSQL, etc.)
 > + dbt
 
-<br> Much of my work is proprietary, so what you will find here is a composition of smaller, self-driven analyses and volunteer work. I'll be pushing updates as I find open-source datasets that are appropriate for showcasing certain skills. 
+<br> Much of my work is proprietary, so what you will find here is an amalgamation of smaller, case-study-type analyses. I'll be pushing updates as I find open-source datasets that are appropriate for showcasing certain skills. 
 
 ### Projects
 + Simple A/B Test Evaluation
