@@ -8,7 +8,7 @@
 > + dbt
 > + ETL/ELT practices - Airflow, BigQuery, Snowflake, etc.
 
-<br> Much of my work is proprietary, so what you will find here is an amalgamation of smaller, case-study-type analyses. It'd not very up to date at the moment, as I've ben focusing on building out my personal website and on my day-to-day production work! I'll be pushing updates as I find open-source datasets that are appropriate for showcasing certain skills. 
+<br> Much of my work is proprietary, so what you will find here is an amalgamation of smaller, case-study-type analyses. It's not very up to date at the moment, as I've ben focusing on building out my personal website and on my day-to-day production work! I'll be pushing updates as I find open-source datasets that are appropriate for showcasing certain skills. 
 
 ### Projects
 + Simple A/B Test Evaluation
